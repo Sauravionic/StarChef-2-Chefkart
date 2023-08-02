@@ -1,0 +1,33 @@
+.dishesNavbar {
+    font-family: 'Open Sans', sans-serif;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 18px;
+    .dishesNavbarContainer {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .backButton {
+            cursor: pointer;
+            button {
+                background: transparent;
+                border: none;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 10px;
+                    height: 15px;
+                }
+            }
+        }
+        .selectDishesText {
+            span {
+                font-size: 17px;
+                color: #1C1C1C;
+                text-align: left;
+                font-weight: 700;
+            }
+        }
+    }
+}

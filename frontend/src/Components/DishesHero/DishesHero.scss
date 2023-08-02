@@ -1,0 +1,114 @@
+.dishesHero {
+    font-family: 'Open Sans', sans-serif;
+    .dishesHeroContainer {
+        .blackArea {
+            background-color: #1C1C1C;
+            box-shadow: 0px 4px 4px #FFFFFF46;
+            height: 4rem;
+        }
+        .whiteArea {
+            position: relative;
+            .calendar {
+                background: wheat;
+                position: absolute;
+                top: -25px;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 85%;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 1px 4px #D6D6D69E;
+                border-radius: 9px;
+            }
+            .calendarComponent {
+                display: flex;
+                align-items: center;
+                padding: 20px 5px 20px 5px;
+                justify-content: space-evenly;
+                overflow: hidden;
+                .calendarArea {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+
+                    .calendarImg {
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+
+                    .date {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                hr {
+                    border: none;
+                    height: 26px;
+                    width: 1px;
+                    margin: 0;
+                    /* Set the hr color */
+                    color: #0d0d0d;  /* old IE */
+                    background-color: #111010;  /* Modern Browsers */
+                }
+
+                .timeArea {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+
+                    .timeImg {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .timeRange {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                span {
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .foodCategory {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4.5rem;
+            .foodCategoryContainer {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                overflow-x: auto;
+                padding-left: 8%;
+                padding-right: 8%;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                .foodCategoryButton {
+                    button {
+                        background: #FFF9F2 0% 0% no-repeat padding-box;
+                        box-shadow: 0px 3px 6px #FFF9F2;
+                        border: 0.5px solid #FF941A;
+                        border-radius: 17px;
+                        padding: 5px 20px 5px 20px;
+                        font-family: inherit;
+                        letter-spacing: 0.1px;
+                        font-weight: 700;
+                        color: #FF941A;
+                    }
+                }
+            }
+        }
+    }
+}

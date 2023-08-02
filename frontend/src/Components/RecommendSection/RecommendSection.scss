@@ -1,0 +1,20 @@
+.recommendSection {
+    overflow: auto;
+    margin-top: 1.5rem;
+    max-height: calc(100vh - 70px - 166px - 157px);
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    hr {
+        height: 2px;
+        border: none;
+        background-color: #4a474759;
+        margin: 0;
+    }
+    .recommendSectionContainer {
+        padding-top: 2%;
+        margin-bottom: 10%;
+        padding-bottom: 8%;
+    }
+}
