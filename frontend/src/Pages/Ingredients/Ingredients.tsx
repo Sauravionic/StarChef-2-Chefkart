@@ -7,7 +7,7 @@ const Ingredients = () => {
     const { id } = useParams();
     const [foodIng, setFoodIng] = useState();
     const url = `https://8b648f3c-b624-4ceb-9e7b-8028b7df0ad0.mock.pstmn.io/dishes/v1/${id}`
-
+    console.log(foodIng);
     const fetchData = async () => {
         await axios.get(url)
             .then((response) => {
@@ -17,10 +17,11 @@ const Ingredients = () => {
                 console.log(error);
         })
     }
+    console.log(fetchData);
     return (
         <div className="ingredients">
             <div className="ingredientsContainer">
-                
+
             </div>
         </div>
     )
