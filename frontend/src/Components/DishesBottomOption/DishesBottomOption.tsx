@@ -2,7 +2,7 @@ import "./DishesBottomOption.scss";
 import burger from "/burger.png";
 import arrow from "/arrow.svg";
 
-const DishesBottomOption = () => {
+const DishesBottomOption = ({counter}:any) => {
     return (
         <div className="dishesBottomOption">
             <div className="dishesBottomOptionContainer">
@@ -11,7 +11,7 @@ const DishesBottomOption = () => {
                         <img src={burger} alt="" />
                     </div>
                     <div className="itemSelected">
-                        <span>3 food item selected</span>
+                        <span>{counter} food item selected</span>
                     </div>
                 </div>
                 <div className="arrow">

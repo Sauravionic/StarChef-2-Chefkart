@@ -4,9 +4,17 @@ import down from "/down.svg";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const RecommendSection = () => {
+const RecommendSection = ({ counter, setCounter }: any) => {
 
     const [food, setFood] = useState([]);
+    console.log(counter); // Just for not used warning. HEHE
+    const increaseCounter = (option: string) => {
+        if (option == "inc") {
+            setCounter((prevCounter: any) => prevCounter + 1);
+        } else {
+            setCounter((prevCounter: any) => prevCounter - 1)
+        }
+    };
     const fetchData = async () => {
 
         await axios.get("https://8b648f3c-b624-4ceb-9e7b-8028b7df0ad0.mock.pstmn.io/dishes/v1/")
@@ -40,7 +48,7 @@ const RecommendSection = () => {
                     <div className="foodMenuSectionContainer">
                         {food.map((dish) => {
                             return (
-                                <FoodMenuCard item={ dish } />
+                                <FoodMenuCard item={dish} increaseCounter={ increaseCounter } />
                             )
                         })}
                     </div>

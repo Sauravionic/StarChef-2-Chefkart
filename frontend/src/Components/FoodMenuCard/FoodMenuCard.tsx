@@ -3,8 +3,19 @@ import dot from "/dot.svg";
 import star from "/star.svg";
 import { Link } from 'react-router-dom';
 import refrigerator from "/refrigerator.svg"
+import { useState } from "react";
 
-const FoodMenuCard = ({item}: any) => {
+const FoodMenuCard = ({ item, increaseCounter }: any) => {
+    
+    const [isClicked, setClicked] = useState(false);
+    const addClickHandler = () => {
+        setClicked((prevClicked) => !prevClicked); // Toggle the state on each click
+        if (isClicked) {
+            increaseCounter("dec");
+        } else {
+            increaseCounter("inc");
+        }
+    };
     return (
         <div className="foodMenuCard">
             <div className="foodMenuCardContainer">
@@ -45,8 +56,10 @@ const FoodMenuCard = ({item}: any) => {
                         <img src={item.image} alt="" />
                     </div>
                     <div className="foodAddButton">
-                        <button>Add</button>
-                        <span>+</span>
+                        <button onClick={addClickHandler}>
+                            {isClicked ? "Added" : "Add"}
+                        </button>
+                        <span>{isClicked ? "-" : "+"}</span>
                     </div>
                 </div>
             </div>
