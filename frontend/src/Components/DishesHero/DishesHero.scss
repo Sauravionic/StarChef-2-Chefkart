@@ -97,15 +97,28 @@
                 }
                 .foodCategoryButton {
                     button {
-                        background: #FFF9F2 0% 0% no-repeat padding-box;
+                        letter-spacing: 0.4px;
+                        // background: #FFF9F2 0% 0% no-repeat padding-box;
                         box-shadow: 0px 3px 6px #FFF9F2;
-                        border: 0.5px solid #FF941A;
+                        border: 0.5px solid #BDBDBD;
                         border-radius: 17px;
                         padding: 5px 20px 5px 20px;
                         font-family: inherit;
-                        letter-spacing: 0.1px;
                         font-weight: 700;
-                        color: #FF941A;
+                        color: #8A8A8A;
+                        transition: all 0.5s ease;
+
+                        &:hover {
+                            background: #FFF9F2 0% 0% no-repeat padding-box;
+                            box-shadow: 0px 3px 6px #FFF9F2;
+                            border: 0.5px solid #FF941A;
+                            border-radius: 17px;
+                            padding: 5px 20px 5px 20px;
+                            font-family: inherit;
+                            // letter-spacing: 0.1px;
+                            font-weight: 700;
+                            color: #FF941A;
+                        }
                     }
                 }
             }

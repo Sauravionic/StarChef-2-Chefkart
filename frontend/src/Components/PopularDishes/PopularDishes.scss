@@ -17,6 +17,7 @@
         }
         .popularDishesCards {
             margin-top: 25px;
+            display: flex;
             .popularDishesCardsContainer {
                 display: flex;
                 align-items: center;
@@ -25,6 +26,8 @@
                 padding-left: 8%;
                 padding-right: 8%;
                 overflow-y: hidden;
+                margin-left: auto;
+                margin-right: auto;
                 
                 &::-webkit-scrollbar {
                     display: none;
