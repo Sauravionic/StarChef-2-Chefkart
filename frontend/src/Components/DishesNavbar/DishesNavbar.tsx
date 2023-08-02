@@ -1,5 +1,5 @@
 import "./DishesNavbar.scss";
-import back_button from "../../../public/back_button.svg";
+import back_button from "/back_button.svg";
 
 const DishesNavbar = () => {
     return (
