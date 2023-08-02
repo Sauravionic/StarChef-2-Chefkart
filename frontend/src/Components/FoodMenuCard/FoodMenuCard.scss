@@ -1,0 +1,166 @@
+.foodMenuCard {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    .foodMenuCardContainer {
+        display: flex;
+        justify-content: space-between;
+        .foodMenuContent {
+            .header {
+                display: flex;
+                align-items: center;
+                gap: 9px;
+                h5 {
+                    margin: 0;
+                    font-family: inherit;
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+                .dotimg {
+                    width: 10px;
+                    height: 10px;
+                }
+                .star {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #51C452 0% 0% no-repeat padding-box;
+                    border-radius: 2px;
+                    width: 25px;
+                    height: 12px;
+                    gap: 2px;
+                    span {
+                        font-family: inherit;
+                        font-size: 8px;
+                        color: #FFFFFF;
+                    }
+                    img {
+                        width: 4px;
+                        height: 4px;
+                    }
+                }
+            }
+            .midContent {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                margin-top: 10px;
+
+                .lefticons {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    justify-content: space-between;
+
+                    .icon1 {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 3px;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                        span {
+                            font-family: inherit;
+                            letter-spacing: 0.08px;
+                            color: #1C1C1C;
+                            font-size: 6px;
+                            font-weight: 600;
+                            letter-spacing: 0.2px;
+                        }
+                    }
+                }
+
+                hr {
+                    opacity: 1;
+                    height: 20px;
+                    width: 1px;
+                }
+
+                .midRightContent {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    .ingredientspan {
+                        font-family: inherit;
+                        font-size: 11px;
+                        font-weight: 700;
+                        letter-spacing: 0.4px;
+                    }
+                    .link {
+                        display: flex;
+                        text-decoration: none;
+                        .viewlist {
+                            font-family: inherit;
+                            font-size:10px;
+                            color: #FF8800;
+                        }
+                    }
+                }
+            }
+
+            .bottomContent {
+                margin-top: 12px;
+                p {
+                    width: 188px;
+                    margin: 0;
+                    letter-spacing: 0.16px;
+                    color: #707070;
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .foodMenuImage {
+            position: relative;
+            .foodImage {
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 8px;    
+                }
+            }
+            .foodAddButton {
+                width: max-content;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 999;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 3px 4px #00000029;
+                    border: 0.5px solid #FF9A26;
+                    border-radius: 3px;
+                    width: 65px;
+                    height: 25px;
+                    font-family: 'Open Sans', sans-serif;
+                    color: #FF8800;
+                    font-size: 11px;
+                    font-weight: 700;
+                }
+
+                span {
+                    font-family: 'Open Sans', sans-serif;
+                    position: absolute;
+                    top: -2px;
+                    right: 3px;
+                    color: #FF8800;
+                    font-size: 10px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .foodHr {
+        margin-top: 30px;
+        height: 1.5px;
+    }
+}

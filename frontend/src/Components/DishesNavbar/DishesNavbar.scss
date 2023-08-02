@@ -1,7 +1,10 @@
 .dishesNavbar {
     font-family: 'Open Sans', sans-serif;
     height: 50px;
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    // padding-top: 20px;
     padding-left: 18px;
     .dishesNavbarContainer {
         display: flex;

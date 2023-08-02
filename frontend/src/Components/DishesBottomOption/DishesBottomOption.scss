@@ -1,0 +1,51 @@
+.dishesBottomOption {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    z-index: 1000;
+
+    
+    .dishesBottomOptionContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 239px;
+        height: 50px;
+        background: #1C1C1C 0% 0% no-repeat padding-box;
+        box-shadow: 4px 4px 9px #00000017;
+        border-radius: 7px;
+
+        .leftContent {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .image {
+                display: flex;
+                align-items: center;
+            }
+            .itemSelected {
+                display: flex;
+                align-items: center;
+                span {
+                    font-family: inherit;
+                    font-size: 12px;
+                    font-weight: 600;
+                    letter-spacing: 0.3px;
+                }
+            }
+        }
+        .arrow {
+            img {
+                transform: matrix(-1, 0, 0, -1, 0, 0);
+            }
+        }
+    }
+}

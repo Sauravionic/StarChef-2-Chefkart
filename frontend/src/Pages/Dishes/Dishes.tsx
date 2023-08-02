@@ -1,3 +1,4 @@
+import DishesBottomOption from "../../Components/DishesBottomOption/DishesBottomOption";
 import DishesHero from "../../Components/DishesHero/DishesHero";
 import DishesNavbar from "../../Components/DishesNavbar/DishesNavbar";
 import PopularDishes from "../../Components/PopularDishes/PopularDishes";
@@ -10,7 +11,8 @@ const Dishes = () => {
             <DishesNavbar />
             <DishesHero />
             <PopularDishes />
-            <RecommendSection/>
+            <RecommendSection />
+            <DishesBottomOption/>
         </div>
     )
 }

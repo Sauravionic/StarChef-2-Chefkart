@@ -1,6 +1,7 @@
 .recommendSection {
+    font-family: 'Open Sans', sans-serif;
     overflow: auto;
-    margin-top: 1.5rem;
+    margin-top: 1.3rem;
     max-height: calc(100vh - 70px - 166px - 157px);
 
     &::-webkit-scrollbar {
@@ -13,8 +14,42 @@
         margin: 0;
     }
     .recommendSectionContainer {
-        padding-top: 2%;
-        margin-bottom: 10%;
-        padding-bottom: 8%;
+        padding-bottom: 36%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+
+        .recommendHeader {
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .heading {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                h1 {
+                    margin: 0;
+                    font-family: inherit;
+                    font-size: 20px;
+                    letter-spacing: 0.3px;
+                }
+            }
+
+            .menuButton {
+                button {
+                    border: none;
+                    background: #1C1C1C 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 3px 4px #00000029;
+                    border-radius: 6px;
+                    color: #FFFFFF;
+                    letter-spacing: 0.7px;
+                    font-size: 10px;
+                    width: 60px;
+                    height: 32px;
+                    font-weight: 600;
+                }
+            }
+        }
     }
 }
