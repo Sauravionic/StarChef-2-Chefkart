@@ -19,3 +19,19 @@
         }
     }
 }
+@media screen and (min-width: 501px) {
+    .ingredientsNavbar {
+        padding-left: 25px;
+        padding-top: 25px;
+        .ingredientsNavbarContainer {
+            .backbutton {
+                button {
+                    img {
+                        width: 30px;        
+                        height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

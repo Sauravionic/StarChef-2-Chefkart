@@ -3,3 +3,13 @@
     overflow: hidden;
     height: 100vh;
 }
+@media screen and (min-width: 1000px) {
+    .ingredients {
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

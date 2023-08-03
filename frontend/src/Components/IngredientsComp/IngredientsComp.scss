@@ -32,3 +32,39 @@
         }
     }
 }
+
+@media screen and (min-width: 501px) {
+    .ingredientsComp {
+        padding-top: 0;
+        .ingredientsCompContainer {
+            .headers {
+                gap: 2px;
+                h2 {
+                    font-size: 30px;
+                }
+                span {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .ingredientsComp {
+        padding-top: 35px;
+        .ingredientsCompContainer {
+            .headers {
+                gap: 2px;
+                h2 {
+                    font-size: 40px;
+                }
+                span {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

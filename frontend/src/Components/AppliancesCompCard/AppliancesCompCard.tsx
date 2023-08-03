@@ -1,5 +1,7 @@
 import "./AppliancesCompCard.scss";
 import refrigerator from "/refrigerator.png";
+import refrigeratorBig from "/refrigerator@2x.png";
+import { useState, useEffect } from 'react';
 
 const AppliancesComp = ({ data }: any) => {
     if (!data) {
@@ -9,7 +11,29 @@ const AppliancesComp = ({ data }: any) => {
     if (!appliances || appliances.length === 0) {
         return <div>No Appliances data available</div>;
     }
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const breakpoint = 500; 
+    const handleWindowSizeChange = () => {
+        setWindowWidth(window.innerWidth);
+    };
 
+    useEffect(() => {
+        
+        window.addEventListener('resize', handleWindowSizeChange);
+
+        return () => {
+        window.removeEventListener('resize', handleWindowSizeChange);
+        };
+
+    }, []);
+
+    const getImageUrl = () => {
+        if (windowWidth < breakpoint) {
+        return refrigerator; 
+        } else {
+        return refrigeratorBig;
+        }
+    };
     return (
         <div className="appliancesCompCard">
             <div className="appliancesCompCardContainer">
@@ -20,7 +44,7 @@ const AppliancesComp = ({ data }: any) => {
                     {appliances.map((a:any) => {
                         return (
                             <div className="image">
-                                <img src={refrigerator} alt="" />
+                                <img src={getImageUrl()} alt="" />
                                 <span>{a.name}</span>
                             </div>
                         )

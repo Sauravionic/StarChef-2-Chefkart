@@ -116,3 +116,147 @@
         background-color: #F2F2F2;
     }
 }
+
+@media screen and (min-width: 501px) {
+    .ingredientsName {
+        margin-top: 10px;
+        .ingredientsNameContainer {
+            .details {
+                .heading {
+                    h1 {
+                        font-size: 35px;
+                    }
+                    .star {
+                        font-weight: 600;
+                        width: 40px;
+                        height: 20px;
+
+                        span {
+                            font-size: 12px;
+                        }
+                        img {
+                            width: 10px;
+                            height: 8px;
+                        }
+                    }
+                }
+                .desc {
+                    width: 65%;
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .time {
+                .clockIcon {
+                    img{
+                        width: 25px;
+                        height: 22px;
+                    }
+                }
+                .timehr {
+                    display: flex;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        hr {
+            margin-top: 15px;
+        }
+    }
+}
+@media screen and (min-width: 690px){
+    .ingredientsName {
+        .backgroundImage {
+            top: 40px;
+            right: -50px;
+        }
+        .firstImage {
+            top: 106px;
+            right: -181px;
+            img {
+                width: 420px;
+            }
+        }
+            .secondImage {
+            top: 25px;
+            right: -174px;
+            img {
+                width: 290px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1000px){
+    .ingredientsName {
+        margin-top: 90px;
+        .ingredientsNameContainer {
+            .details {
+                .heading {
+                    gap: 20px;
+                    h1 {
+                        font-size: 50px;
+                    }
+                    .star {
+                        font-weight: 600;
+                        width: 60px;
+                        height: 32px;
+                        gap: 5px;
+                        span {
+                            font-size: 14px;
+                        }
+                        img {
+                            width: 10px;
+                            height: 9px;
+                        }
+                    }
+                }
+                .desc {
+                    width: 65%;
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .time {
+                .clockIcon {
+                    img{
+                        width: 25px;
+                        height: 22px;
+                    }
+                }
+                .timehr {
+                    display: flex;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        hr {
+            margin-top: 30px;
+        }
+
+        .backgroundImage {
+            width: 400px;
+            height: 350px;
+        }
+        .firstImage {
+            top: 156px;
+            right: -240px;
+            img {
+                width: 100%;
+            }
+        }
+        .secondImage {
+            right: -212px;
+            top: 45px;
+            img {
+                z-index: 999;
+                width: 100%;
+            }
+        }
+    }
+}
