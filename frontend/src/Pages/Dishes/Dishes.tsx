@@ -11,6 +11,7 @@ import "./Dishes.scss";
 
 const Dishes = () => {
     const [counter, setCounter] = useState(0);
+    
     return (
         <div className="dishes">
             <DishesNavbar />
