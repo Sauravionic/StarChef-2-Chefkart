@@ -1,0 +1,39 @@
+.vegetableCompCard {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    .vegetableCompContainer{
+
+        .vegetableCompheader {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            h3 {
+                font-family: inherit;
+                margin: 0;
+                font-size: 13px;
+                font-weight: 700;
+                color: #1C1C1C;
+            }
+            .image {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .vegetableCompContent {
+            padding-top: 10px;
+
+            .veggie {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #1C1C1C;
+                font-weight: 600;
+                span {
+                    font-family: inherit;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

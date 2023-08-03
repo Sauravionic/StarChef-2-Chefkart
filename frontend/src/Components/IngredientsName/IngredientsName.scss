@@ -1,0 +1,118 @@
+.ingredientsName {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    overflow-x: clip;
+    .ingredientsNameContainer {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 85%;
+        z-index: 999;
+        .details{
+            .heading{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                h1 {
+                    font-weight: 800;
+                    margin: 0;
+                    font-size: 28px;
+                    font-family: inherit;
+                    z-index: 999;
+                }
+                .star {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #51C452 0% 0% no-repeat padding-box;
+                    border-radius: 2px;
+                    width: 25px;
+                    height: 12px;
+                    gap: 2px;
+                    margin-top: 5px;
+                    z-index: 999;
+                    span {
+                        font-family: inherit;
+                        font-size: 8px;
+                        color: #FFFFFF;
+                        z-index: 999;
+                    }
+
+                    img {
+                        width: 4px;
+                        height: 4px;
+                        z-index: 999;
+                    }
+                }
+            }
+            .desc {
+                width: 220px;
+                z-index: 999;
+                p {
+                    text-align: left;
+                    font-family: inherit;
+                    font-size: 12px;
+                    letter-spacing: 0.26px;
+                    color: #A3A3A3;
+                    opacity: 1;
+                    z-index: 999;
+                    position: relative;
+                }
+            }
+        }
+        .time {
+            padding-top: 10px;
+            display: flex;
+            gap: 7px;
+
+            .clockIcon {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 14px;
+                    height: 15px;
+                }
+            }
+
+            .timehr {
+                display: flex;
+                span {
+                    font-family: inherit;
+                    font-size: 10px;
+                    color: #1C1C1C;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .backgroundImage {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        height: 230px;
+        background: #FFF9F2 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius: 50%;
+        top: 25px;
+        right: -60px;
+    }
+    .firstImage {
+        top: 137px;
+        position: absolute;
+        right: -137px;
+        z-index: 999;
+        bottom: -10px;
+    }
+    .secondImage {
+        top: 80px;
+        position: absolute;
+        z-index: 999;
+        right: -123px;
+    }
+
+    hr {
+        border: 0;
+        margin-top: 20px;
+        height: 2.3px;
+        background-color: #F2F2F2;
+    }
+}

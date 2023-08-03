@@ -1,0 +1,53 @@
+.appliancesCompCard {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    .appliancesCompCardContainer{
+        .appliancesCompCardHeader {
+            h3 {
+                font-family: inherit;
+                margin: 0;
+                font-size: 16px;
+                font-weight: 700;
+                color: #1C1C1C;
+                letter-spacing: 0.25px;
+            }
+        }
+        .appliancesCompCardImages {
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            overflow-x: auto;
+            padding-right: 10px;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            .image {
+                width: 72px;
+                height: 95px;
+                background: #F5F5F5 0% 0% no-repeat padding-box;
+                border-radius: 7px;
+                opacity: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 3px;
+
+                img {
+                    width: 30px;
+                    height: 55px;
+                    background: transparent;
+                }
+                span {
+                    font-size: 9px;
+                    font-weight: 500;
+                    letter-spacing: 0.25px;
+                    font-family: inherit;
+                }
+            }
+            
+        }
+    }
+}

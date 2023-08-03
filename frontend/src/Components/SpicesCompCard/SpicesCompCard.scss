@@ -1,0 +1,39 @@
+.spicesCompCard {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    .spicesCompCardContainer{
+
+        .spicesCompheader {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            h3 {
+                font-family: inherit;
+                margin: 0;
+                font-size: 13px;
+                font-weight: 700;
+            }
+            .image {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .spicesComppContent {
+            padding-top: 10px;
+
+            .spices {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #1C1C1C;
+                font-weight: 600;
+                letter-spacing: 0.3px;
+                span {
+                    font-family: inherit;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

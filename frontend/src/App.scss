@@ -3,7 +3,8 @@ body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   // margin-top: 15px;
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
   &::-webkit-scrollbar {
     display: none;
   }
