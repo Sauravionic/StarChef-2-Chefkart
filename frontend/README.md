@@ -1,27 +1,77 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Chef-Kart-Sample
 
-Currently, two official plugins are available:
+A React + Vite Application for recipes of Meals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Hi, I'm Saurav! 👋
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 🔗 Links for Project
+[![Github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sauravionic/StarChef-2-Chefkart)
+[![Live Link](https://img.shields.io/badge/Project_Live_SITE-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://star-chef-2-chefkart.vercel.app/)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+
+## Tech Stack
+
+**Client:** React, Vite, SCSS, Yarn, Typescript
+
+**Version Control:** Github
+
+**Deployment:** Vercel
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Sauravionic/StarChef-2-Chefkart.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Go to the project directory
+
+```bash
+  cd frontend
+```
+
+Install dependencies
+
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  yarn run dev
+```
+
+
+## Demo
+
+
+
+https://drive.google.com/file/d/1q9auApeWV5W4JaLvrKIzcbNkKTgOIz1z/view?usp=drive_link
+## Screenshots
+
+#### Mobile Page 1
+![Mobile Page 1](https://github.com/Sauravionic/StarChef-2-Chefkart/blob/main/App%20Working/Mobile-%20Page%201.png)
+
+#### Mobile Page 2
+![Mobile Page 2](https://github.com/Sauravionic/StarChef-2-Chefkart/blob/main/App%20Working/Mobile%20-%20Page%202.png)
+
+#### Desktop Page 1
+![Desktop Page 1](https://github.com/Sauravionic/StarChef-2-Chefkart/blob/main/App%20Working/Desktop%20-%20Page%201.png)
+
+#### Desktop Page 2 - Part 1
+![Desktop Page 2 - Part 1](https://github.com/Sauravionic/StarChef-2-Chefkart/blob/main/App%20Working/Desktop%20-%20Page%202%20-%20Part%201.png)
+
+#### Desktop Page 2 - Part 2
+![Desktop Page 2 - Part 2](https://github.com/Sauravionic/StarChef-2-Chefkart/blob/main/App%20Working/Desktop%20-%20Page%202%20-%20Part%201.png)
+
+
+## Authors
+
+- [@Saurav](https://www.github.com/Sauravionic)
+
