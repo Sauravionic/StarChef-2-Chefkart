@@ -36,3 +36,22 @@
         }
     }
 }
+
+@media screen and (min-width: 1200px) {
+
+    .popularDishes {
+        .popularDishesContainer {
+            .popularDishesHeading {
+                h1 {
+                    font-size: 25px;
+                    max-width: 1100px;
+                }
+            }
+            .popularDishesCards {
+                .popularDishesCardsContainer {
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}

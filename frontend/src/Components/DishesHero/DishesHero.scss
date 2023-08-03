@@ -125,3 +125,66 @@
         }
     }
 }
+
+@media screen and (min-width: 501px) {
+    .dishesHero {
+        .dishesHeroContainer {
+            .whiteArea {
+                .calendarComponent {
+                    span {
+                        font-size: 15px;
+                    }
+                    .calendarArea {
+                        .calendarImg {
+                            img {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+                    .timeArea {
+                        .timeImg {
+                            img {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dishesHero {
+        .dishesHeroContainer {
+            .whiteArea {
+                .calendarComponent {
+                    span {
+                        font-size: 19px;
+                    }
+                    .calendarArea {
+                        .calendarImg {
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                    .timeArea {
+                        .timeImg {
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+                .calendar {
+                    max-width: 1000px;
+                }
+            }
+        }
+    }
+}

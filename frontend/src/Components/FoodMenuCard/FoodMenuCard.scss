@@ -164,3 +164,189 @@
         height: 1.5px;
     }
 }
+
+@media screen and (min-width: 501px) {
+    .foodMenuCard {
+        .foodMenuCardContainer {
+            .foodMenuContent {
+                .header {
+                    h5 {
+                        font-size: 18px;
+                    }
+                    .dotimg {
+                        width: 12px;
+                        height: 12px;
+                    }
+                    .star {
+                        height: 14px;
+                        width: 30px;
+                        gap: 3px;
+
+                        span {
+                            font-size: 9px;
+                        }
+                        img {
+                            width: 4px;
+                            height: 7px;
+                        }
+                    }
+                }
+                .midContent {
+                    .lefticons {
+                        gap: 3px;
+                        .icon1 {
+                            img {
+                                width: 27px;
+                                height: 27px;
+                            }
+                            span {
+                                font-size: 7px;
+                            }
+                        }
+                    }
+                    hr {
+                        margin-bottom: 5px;
+                        height: 40px;
+                    }
+
+                    .midRightContent {
+                        .ingredientspan {
+                            font-size: 13px;
+                        }
+                        .link {
+                            .viewlist {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .bottomContent {
+                    p {
+                        width: 85%;
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .foodMenuImage {
+                .foodImage {
+                    img{
+                        width: 140px;
+                        height: 121px;
+                    }
+                }
+                .foodAddButton {
+                    bottom: -7px;
+                    button {
+                        width: 85px;
+                        height: 30px;
+                        font-size: 13px;
+                    }
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    .foodMenuCard {
+        padding-top: 40px;
+        .foodMenuCardContainer {
+            .foodMenuContent {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+                .header {
+                    margin-bottom: 0px;
+                    h5 {
+                        font-size: 30px;
+                    }
+                    .dotimg {
+                        width: 17px;
+                        height: 17px;
+                    }
+                    .star {
+                        height: 19px;
+                        width: 40px;
+                        gap: 3px;
+
+                        span {
+                            font-family: inherit;
+                            font-size: 11px;
+                        }
+                        img {
+                            width: 4px;
+                            height: 7px;
+                        }
+                    }
+                }
+                .midContent {
+                    margin: 0;
+                    .lefticons {
+                        gap: 8px;
+                        .icon1 {
+                            img {
+                                width: 30px;
+                                height: 40px;
+                            }
+                            span {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    hr {
+                        margin-bottom: 5px;
+                        height: 60px;
+                    }
+
+                    .midRightContent {
+                        .ingredientspan {
+                            font-size: 22px;
+                        }
+                        .link {
+                            .viewlist {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .bottomContent {
+                    margin: 0;
+                    p {
+                        width: 100%;
+                        font-size: 18px;
+                        font-family: inherit;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .foodMenuImage {
+                .foodImage {
+                    img {
+                        width: 290px;
+                        height: 200px;
+                    }
+                }
+                .foodAddButton {
+                    bottom: -15px;
+                    
+                    button {
+                        width: 160px !important;
+                        height: 45px;
+                        font-size: 20px;
+                        border-radius: 6px;
+                        cursor: pointer;
+                    }
+                    span {
+                        font-size: 20px;
+                        top: -5px;
+                    }
+                }
+            }
+        }
+    }
+}

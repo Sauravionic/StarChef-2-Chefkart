@@ -10,7 +10,7 @@
     margin-right: auto;
     color: #ffffff;
     z-index: 1000;
-
+    max-width: max-content;
     
     .dishesBottomOptionContainer {
         display: flex;
@@ -45,6 +45,31 @@
         .arrow {
             img {
                 transform: matrix(-1, 0, 0, -1, 0, 0);
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    .dishesBottomOption {
+        .dishesBottomOptionContainer {
+            width: 400px;
+            height: 60px;
+
+            .leftContent {
+                gap: 10px;
+                .itemSelected {
+                    span {
+                        font-size: 19px;
+                    }
+                }
+            }
+            .arrow {
+                display: flex;
+
+                img {
+                    width: 10px;
+                    height: 17px;
+                }
             }
         }
     }

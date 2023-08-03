@@ -38,3 +38,29 @@
         }
     }
 }
+@media screen and (min-width: 1200px) {
+    .popularDishesCard {
+        .popularDishesCardContainer {
+            .popularDishImage {
+                height: 100px;
+                width: 100px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+
+            .popularDishName {
+                height: 100px;
+                width: 100px;
+                padding: unset;
+
+                span {
+                    width: 100px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
